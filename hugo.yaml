@@ -1,5 +1,5 @@
 languageCode: en-tw
-baseURL: "yujenhuang.site"
+baseURL: ""
 title: YJ's home
 paginate: 5
 theme: PaperMod
