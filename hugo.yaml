@@ -1,5 +1,5 @@
 languageCode: en-tw
-baseURL: "https://yujenhuang.site"
+baseURL: "https://yjhuang.site"
 title: YJ's home
 paginate: 5
 theme: PaperMod
@@ -9,6 +9,7 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
+disqusShortname: yujen77300-1
 #googleAnalytics: UA-123-45
 
 minify:
@@ -24,6 +25,10 @@ menu:
     - identifier: about
       name: About
       url: /about/
+      weight: 6
+    - identifier: projects
+      name: Projects
+      url: /projects/
       weight: 5
     - identifier: posts
       name: Posts
@@ -42,7 +47,7 @@ menu:
       url: /archives/
       weight: 7
 
-# 参数會以 .Site.Params 的形式讀取
+# 參數會以 .Site.Params 的形式讀取
 params:
 
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
@@ -62,7 +67,7 @@ params:
   ShowCodeCopyButtons: false
   disableSpecial1stPost: false
   disableScrollToTop: false
-  comments: false
+  comments: true
   hidemeta: false
   hideSummary: false
 
