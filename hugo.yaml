@@ -22,10 +22,10 @@ menu:
       name: Home
       url: /
       weight: 1
-    - identifier: about
-      name: About
-      url: /about/
-      weight: 6
+    # - identifier: about
+    #   name: About
+    #   url: /about/
+    #   weight: 6
     - identifier: projects
       name: Projects
       url: /projects/
@@ -92,7 +92,7 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: "Welcome!"
-    subtitle: "Hello! I'm Yu Jen Huang, also known as Dylan. Welcome to my personal website."
+    subtitle: "Hello! I'm Yu Jen Huang, also known as Dylan. Welcome to my website."
     imageUrl: "img/Dylan.jpg"
     imageWidth: 120
     imageHeight: 120
@@ -100,10 +100,10 @@ params:
     buttons:
       - name: Posts
         url: posts
-      - name: About
-        url: about
-      # - name: Projects
-      #   url: projects
+      # - name: About
+      #   url: about
+      - name: Projects
+        url: projects
 
   socialIcons:
     - name: linkedin
