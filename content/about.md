@@ -4,6 +4,7 @@ layout: about
 hidemeta: true
 disableShare: true 
 showbreadcrumbs: false
+comments: false
 ---
 
 <p style="font-size: 25px;">關於我</p>
